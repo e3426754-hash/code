@@ -10,7 +10,7 @@ html {
 }
 
 a{
-    color:rgb(243, 11, 11);
+    color:rgb(22, 22, 22);
      font-size: 1em;
     font-family: manrope;
 }
@@ -67,9 +67,9 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    height: 70px;
-    padding: 0 40px;
-    text-align: left;
+    height: 40px;
+    padding: 40px;
+   
   
 }
 
@@ -149,7 +149,7 @@ margin-top: 20px;
       background: #e5828288;
     }
 
-.galerie img, .grid-paysages img, .grid-portraits img {
+.galerie img, .grid-photos {
   width: 300px; 
   height: 200px;
   flex-shrink: 0;
@@ -311,8 +311,19 @@ button {
 }
 .site-header {
   background-color:#e5828288;
-  width:100%;
+  width: 100%;
   box-sizing:border-box;
+}
+header img{
+  width: 5%;
+  height:4%;
+  object-fit:cover;
+}
+header h1{
+  position: absolute;
+  top:20%;
+  left:20%;
+  color:#ffffff;
 }
 .nav-bar {
   display: grid;
@@ -527,16 +538,6 @@ input, select, textarea {
 
   }
 
-body {
-    font-family: 'Segoe UI', Arial, sans-serif;
-    background-color: #f5f5f5;
-    color: #333;
-    max-width: 800px;
-    margin: 40px auto;
-    padding: 20px;
-    line-height: 1.6;
-}
-
 p {
     background: white;
     padding: 20px;
@@ -581,8 +582,8 @@ li:hover {
     transform: translateY(-3px);
 }
  img {
-    width: 50%;
+    width: 30%;
     margin-top:30px;
     border-radius: 12px;
-    box-shadow: 0 5px 20px rgba(0,0,0,0.15);
+    box-shadow: 0 5px 20px rgba(0,0,0,0.15)
 }
