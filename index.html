@@ -1,6 +1,5 @@
 <!doctype html>
 <html lang="fr">
-
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -12,12 +11,9 @@
   <header class="site-header">
     <div class="container nav-bar">
       <nav class="main-nav" aria-label="Navigation principale">
-       <img src="photos/robbie-lens.png" alt="Logo Robbie Lens">
         <div class="logo">A PROPOS DE ROBBIES LENZ</div>
-  
-    </a>
         <a href="index.html"> ACCUEIL</a>
-        <a href="#APROPOS">A PROPOS</a>
+        <a href="a_propos.html">A PROPOS</a>
         <a href="photographie.html">PHOTOGRAPHIE</a>
       </nav>
     </div>
@@ -51,46 +47,41 @@
         <li>Portrait à plusieurs</li>
       </ul>
     </section>
-  </main>
-  <section class="texte-ni">
-    <div class="texte-ni">
+    <section class="texte-ni">
       <h3>ma personalite</h3>
-      <p>
-        Photographe depuis plus de 5 ans, je suis spécialisé dans le reportage d'entreprise et le portrait.
-        Ma mission est simple : vous fournir des images dynamiques, authentiques et directement exploitables pour vos
-        projets de communication.
-        Créativité, qualité et sérénité. Je gère tout, de la direction artistique jusqu'à la livraison finale de vos
-        photos retouchées et prêtes à l'emploi.</p>
-    </div>
-  </section>
-  <section class="galerie">
-    <section class="portfolio">
-      <h2>Mes photos</h2>
-      <div class="grid-photos">
+      <div class="texte-ni">
+        <p>
+          Photographe depuis plus de 5 ans, je suis spécialisé dans le reportage d'entreprise et le portrait.
+          Ma mission est simple : vous fournir des images dynamiques, authentiques et directement exploitables pour vos
+          projets de communication.
+          Créativité, qualité et sérénité. Je gère tout, de la direction artistique jusqu'à la livraison finale de vos
+          photos retouchées et prêtes à l'emploi.</p>
+        </div>
+      </section>
+        <section class="portfolio">
+          <h2>Mes photos</h2>
+          <div class="grid-photos">
+            <img
+            src="https://raw.githubusercontent.com/OpenClassrooms-Student-Center/1603881-creez-votre-site-web-avec-html5-et-css3/b4e2f8a36d30aa10efae2fd6d3923fb1f4e10813/images/portfolio/paysage1.jpg"
+            alt="Paysage 1">
+         <img src="photos/download.jpg" alt="appareil photo">
+          </div>
+        </section>
+      <div class="image-container">
         <img
-          src="https://raw.githubusercontent.com/OpenClassrooms-Student-Center/1603881-creez-votre-site-web-avec-html5-et-css3/b4e2f8a36d30aa10efae2fd6d3923fb1f4e10813/images/portfolio/paysage1.jpg"
-          alt="Paysage 1">
-        <img
-          src="https://raw.githubusercontent.com/OpenClassrooms-Student-Center/1603881-creez-votre-site-web-avec-html5-et-css3/b4e2f8a36d30aa10efae2fd6d3923fb1f4e10813/images/portfolio/portrait1.jpg"
-          alt="Portrait 1">
+        src="https://raw.githubusercontent.com/OpenClassrooms-Student-Center/1603881-creez-votre-site-web-avec-html5-et-css3/b4e2f8a36d30aa10efae2fd6d3923fb1f4e10813/images/portfolio/paysage1.jpg"
+        width="300" height="300" alt="Montagne">
+        <div class="overlay">Voir la photo</div>
       </div>
-    </section>
-  </section>
-  <div class="image-container">
-    <img
-      src="https://raw.githubusercontent.com/OpenClassrooms-Student-Center/1603881-creez-votre-site-web-avec-html5-et-css3/b4e2f8a36d30aa10efae2fd6d3923fb1f4e10813/images/portfolio/paysage1.jpg"
-      width="300" height="300" alt="Montagne">
-    <div class="overlay">Voir la photo</div>
-  </div>
-  <div id="popup-form">
-    <div class="form-container">
-      <a href="#" class="fermer">X</a>
-      <h2>Formulaire de contact</h2>
-
-      <form action="" method="post">
-        <div class="form-row two-columns">
-          <div class="field">
-            <label for="nom">Nom</label>
+      <div id="popup-form">
+        <div class="form-container">
+          <a href="#" class="fermer">X</a>
+          <h2>Formulaire de contact</h2>
+          
+          <form action="" method="post">
+            <div class="form-row two-columns">
+              <div class="field">
+                <label for="nom">Nom</label>
             <input type="text" id="nom" name="nom" placeholder="Entrez votre nom" required>
           </div>
           <div class="field">
@@ -98,14 +89,14 @@
             <input type="text" id="prenom" name="prenom" placeholder="Entrez votre prénom" required>
           </div>
         </div>
-
+        
         <div class="form-row">
           <div class="field">
             <label for="email">Email</label>
             <input type="email" id="email" name="email" placeholder="Entrez votre email" required>
           </div>
         </div>
-
+        
         <div class="form-row two-columns">
           <div class="field">
             <label for="sexe">Sexe</label>
@@ -120,37 +111,132 @@
             <input type="date" id="date_naissance" name="date_naissance">
           </div>
         </div>
-
+        
         <div class="form-row">
           <div class="field">
             <label for="infos">Plus d'informations</label>
             <textarea id="infos" name="infos" rows="4" placeholder="Votre message..."></textarea>
           </div>
         </div>
-
+        
         <button type="submit" class="submit-button">Valider</button>
       </form>
-
+      
     </div>
   </div>
+  <footer class="footer">
 
+    <div class="footer-container">
+        <div class="footer-column copyright">
+
+            <h2>Robbie Lens</h2>
+
+            <div class="separator"></div>
+
+          
+                © 2021 Robbie Lens.<br>
+                Tous droits réservés.
+            
+
+        </div>
+        <div class="footer-column">
+
+            <h2>Suivez-moi</h2>
+
+            <div class="separator"></div>
+
+            <div class="social-item">
+
+                <a href="https://www.facebook.com/" target="_blank">facebook</a>
+ 
+         Cliquer pour vous rendre sur Facebook
+                
+
+            </div>
+
+            <div class="social-item">
+<a href="https://twitter.com/" target="_blank">twitter</a>
+  Cliquer pour vous rendre sur Twitter
+
+            </div>
+
+            <div class="social-item">
+
+               <a href="https://www.instagram.com/" target="_blank">instagram</a>
+                
+                    Cliquer pour vous rendre sur Instagram
+                
+
+            </div>
+
+        </div>
+        <div class="footer-column">
+
+            <h2>Réseaux sociaux</h2>
+
+            <div class="separator"></div>
+
+            <ul class="footer-links">
+
+                <li>
+                    <a href="#">  
+                        Facebook
+                    </a>
+                </li>
+
+                <li>
+                    <a href="#">
+                    
+                        Twitter
+                    </a>
+                </li>
+
+                <li>
+                    <a href="#">
+                    
+                        Instagram
+                    </a>
+                </li>
+
+            </ul>
+
+        </div>
+
+        <div class="footer-column">
+
+            <h2>Mon portfolio</h2>
+
+            <div class="separator"></div>
+
+            
+                Découvrez mes différents projets,
+                mes réalisations et mon travail.
+
+            <a href="#" class="footer-button">
+                VOIR MON PORTFOLIO
+            </a>
+
+        </div>
+        <div class="footer-column">
+
+            <h2>Contact</h2>
+
+            <div class="separator"></div>
+
+           
+                Vous avez un projet ?
+                N'hésitez pas à me contacter.
+      
+
+            <a href="#popup-form" class="footer-button">
+                UN PROJET, ÉCRIVEZ-MOI
+            </a>
+
+        </div>
+
+    </div>
+
+  </footer>
+</main>
 </body>
-
-</html>
-<footer>
-    <img src="photos/robbie-lens.png" alt="Logo Robbie Lens">
-    <a target="_blank" href="https://twitter.com/">
-      <img src="photos/OIP.jpg" alt="Logo Twitter">
-    </a>
-    <a target="_blank" href="https://www.instagram.com/">
-      <img src="photos\OIP.webp" alt="Logo Instagram">
-  </div>
-  </a>
-  <div>
-    <a href="" class="cta">VOIR MON PORTFOLIO</a>
-    <a href="#popup-form" class="btn-ouvrir">UN PROJET, ÉCRIVEZ-MOI</a>
-  </div>
-</footer>
-</body>
-
 </html>
