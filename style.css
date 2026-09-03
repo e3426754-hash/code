@@ -97,13 +97,6 @@ main section {
 .footer {
     width: 100%;
 
-    background: linear-gradient(
-        135deg,
-        #fff8fb 0%,
-        #f9e3ec 45%,
-        #e8a7c0 100%
-    );
-
     color: #111;
 
     padding: 35px 25px 30px;
@@ -303,9 +296,9 @@ main section {
 
     padding: 10px 15px;
 
-    background: #008cff;
+    background: #121518;
 
-    color: #000;
+    color: #ceacac;
 
     text-decoration: none;
 
@@ -319,7 +312,7 @@ main section {
 
 .footer-button:hover {
 
-    background: #006dcc;
+    background: #e1e4e7;
 
     color: white;
 
@@ -432,7 +425,7 @@ a.cta{
     text-decoration:none;
   margin: 10px;   
   padding: 10px ;
-  background: #007BFF;
+  background: #e9eef3;
   color: rgb(14, 13, 13);
   border-radius: 5px;
 }
@@ -736,12 +729,12 @@ td{
     text-decoration:none;
   margin: 10px;   
   padding: 10px;
-  background: #007BFF;
+  background: #e0e7ee;
   color: rgb(14, 13, 13);
   border-radius: 5px;
 }
 button:hover{
- background-color: #1d4ed8;
+ background-color: #e0e5f3;
 }
 
 #popup-form {
