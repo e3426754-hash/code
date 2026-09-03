@@ -120,6 +120,9 @@ main section {
 
     gap: 30px;
 }
+.texte-m{
+text-align: left;
+}
 
 .footer-column {
 
@@ -793,7 +796,15 @@ input, select, textarea {
   background-color:#ffffff;
 
   }
-
+.survol{
+  width:100%;
+  min-height: 300px;
+  margin: 30px auto;
+  background: color #f6f2f7;
+  border: radius 10px;
+  padding:10px;
+  box-sizing: box;
+}
 p {
     background: white;
     padding: 10px;
