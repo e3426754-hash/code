@@ -16,6 +16,11 @@ a{
      font-size: 1em;
     font-family: manrope;
 }
+.lien{
+  text-align: center;
+  background-color:white;
+  border-radius: 100px;
+}
 ul{
     font-family: manrope;
 }
@@ -132,8 +137,8 @@ main section {
 
 .footer {
     width: 100%;
-background:linear-gradient(to right,#ffffff,#c56f8c);
-    padding: 35px 25px 30px;
+background:linear-gradient(to right,#ffffff,#b66981);
+    padding:  30px;
 }
 
 .footer-container {
