@@ -16,11 +16,6 @@ a{
      font-size: 1em;
     font-family: manrope;
 }
-.lien{
-  text-align: center;
-  background-color:white;
-  border-radius: 100px;
-}
 ul{
     font-family: manrope;
 }
@@ -37,9 +32,9 @@ span{
 .photo{
     display: flex;
     align-items: center;
-    gap: 30px;
-        border: 2px solid rgb(167, 68, 68);
-    background-color: #e6d8d8;
+    gap: 0px;
+    background-color: #9393c4;
+    width:100%;
 }
 
 .image-container {
@@ -78,7 +73,10 @@ span{
 }
 body {
   font-family: 'Manrope', sans-serif;
-  background:linear-gradient(to right,#ffffff,#c56f8c);
+    width: 100%;
+  background-color:#144585;
+  margin: 0;
+  padding: 0;
 }
 em {
   color: #a5b4fc;
@@ -127,18 +125,18 @@ nav a:hover {
 }
 
 main {
-    padding: 5px;
+    padding: 10px;
 }
 
 main section {
-    margin-bottom: 40px;
+    margin-bottom: 0px;
 }
 
 
 .footer {
     width: 100%;
-background:linear-gradient(to right,#ffffff,#b66981);
-    padding:  30px;
+background-color: #bfc0f5;
+    padding: 35px 25px 30px;
 }
 
 .footer-container {
@@ -235,7 +233,6 @@ background:linear-gradient(to right,#ffffff,#b66981);
     align-items: center;
     justify-content: center;
 
-    color: white;
 
     text-decoration: none;
 
@@ -246,42 +243,12 @@ background:linear-gradient(to right,#ffffff,#b66981);
 
 
 
-.facebook {
-
-    background: #1877f2;
-}
-
-
-.twitter {
-
-    background: #1da1f2;
-}
-
-
-
-.instagram {
-
-    background:
-        linear-gradient(
-            45deg,
-            #feda75,
-            #fa7e1e,
-            #d62976,
-            #962fbf,
-            #4f5bd5
-        );
-}
-
-
 .social:hover {
 
     transform: scale(1.12);
 
     box-shadow: 0 4px 10px rgba(0,0,0,0.2);
 }
-
-
-
 
 .footer-links {
 
@@ -426,7 +393,7 @@ background:linear-gradient(to right,#ffffff,#b66981);
 
 .cta {
     display: inline-block;
-    margin-top: 20px;
+    margin-top: 0px;
     text-decoration: none;
 }
 section{
@@ -474,7 +441,8 @@ a.cta{
 }
 .image-container img {
   display: block;
-  width: 400px;
+  width: 100%;
+  max-width: 400px;
 }
 .overlay {
   position: absolute;
@@ -535,8 +503,7 @@ form {
   form {
     flex-direction: column;
     display: flex;
-  }
-  body, 
+  } 
   main,
   section {
     padding-left: 20px;
@@ -547,7 +514,7 @@ form {
 } 
 
 form{
-  color: #faf3f3;
+  color: #241414;
 }
 form {
    
@@ -598,40 +565,45 @@ button {
     text-align: left;       
 }
 .bloc{
-  display:inline-flex;
+  display:flex;
   flex-direction: row; 
   align-items: center;
-  gap: 10px;
-  padding: 10px;
+  gap: 0;
+  padding: 0;
+  margin: 0;
   background-color: #efeff5; 
+  width: 100%;
+  max-width: 100%;
+  box-sizing: border-box;
 }
 .bloc.texte {
   flex: 1;
 }
 
 .bloc img {
-  width: 100px;
+  width: 200px;
+  margin: 0;
 }
 .site-header {
-  background-image: linear-gradient(rgba(229,130,130,0.55),rgba(229,130,130,0.55)),
-  url("photos/download.jpg");
+  background-image: linear-gradient(rgba(66, 131, 190, 0.55),rgba(109, 139, 196, 0.55)),
+  url("photos/OIP (1).webp");
   background-size: cover;
   background-position: center;
   width: 100%;
-  box-sizing: border-box;
+  align-items: center;
+  display: flex;
+
 }
 .nav-bar {
-  display: grid;
-  align-items: center;
-  justify-content: space-between;
-  min-height: 78px;
-  align-self: flex-end;
-}
-
-.main-nav {
   display: flex;
-  gap: 1.9rem;
-  flex-wrap: wrap;
+  min-height: 78px;
+  margin-left: auto; 
+align-items: center;
+  
+}
+.logo{
+  color:white;
+  font-weight: bold;
 }
 
 .photo-carte {
@@ -729,7 +701,6 @@ textarea:focus {
     align-items: center;
     gap: 30px;
     padding: 10px;
-    border: 1px solid rgb(167, 68, 68);
 }
 
 .bloc img {
@@ -768,12 +739,12 @@ td{
     text-decoration:none;
   margin: 10px;   
   padding: 10px;
-  background: #e0e7ee;
+  background: #81a3c5;
   color: rgb(14, 13, 13);
   border-radius: 5px;
 }
 button:hover{
- background-color: #e0e5f3;
+ background-color: #e1e9fa;
 }
 
 #popup-form {
@@ -781,7 +752,7 @@ button:hover{
   position: fixed;
   top: 0; left: 0;
   width: 100%; height: 100%;
-  background: rgba(0,0,0,0.7);
+  background: rgba(187, 163, 163, 0.7);
   justify-content: center;
   align-items: center;
   z-index: 1000;
@@ -792,7 +763,7 @@ button:hover{
 }
 
 .form-container {
-  background: white;
+  background: rgb(161, 65, 65);
   padding: 10px;
   width: 90%;
   max-width: 600px;
@@ -821,12 +792,10 @@ input, select, textarea {
 
 .profile{
   width:100%;
-  min-height: 300px;
-  margin: 30px auto;
+  margin:0;
   background: color #f6f2f7;
   border: radius 10px;
-  padding:10px;
-  box-sizing: box;
+  padding:0px;
 }
 .texte-ni{
   background-color:#ffffff;
